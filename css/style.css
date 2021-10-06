@@ -1,0 +1,510 @@
+/* 
+&display=swap
+&subset=cyrillic-ext 
+*/
+
+@import url("https://fonts.googleapis.com/css?family=Roboto:regular,700&display=swap&subset=cyrillic-ext ");
+
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+html,
+body {
+	height: 100%;
+}
+html {
+	font-family: "Roboto", sans-serif;
+	font-weight: 400;
+	font-size: 16px; /* по умолчанию */
+}
+body {
+	line-height: 1;
+	background: #f5f5f5;
+}
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+	padding: 30px;
+	max-width: 1400px;
+	display: block;
+	margin: 0 auto;
+}
+/* ------------------------------ */
+.block {
+	font-size: 30px;
+	/* padding: 30px; */
+
+	/* Определяет цвет фона элемента */
+	/* background-color: green;
+
+	/* Устанавливает фоновое изображение 
+	для элемента либо задает градиентную заливку */
+	/* background-image: url("../img/01.png"); */
+	/* background-image: linear-gradient(to bottom, rgba(236, 232, 157, 1) 0%, rgba(94, 83, 115, 1) 50%, rgba(24, 181, 164, 1) 100%); */
+
+	/* Определяет, как будет повторяться фоновое изображение */
+	/* background-repeat: no-repeat; */
+
+	/* Задает начальное положение фонового изображения, где первое значение 
+	(проценты, px, слово) определяет расположение 
+	по горизонтали, второе - вертикали. */
+	/* background-position: 0 0; */
+
+	/* Масштабирует фоновое изображение согласно заданным размерам. 
+	В цифрах, где первое значение (проценты, px) определяет ширину, 
+	второе - высоту. Либо специальным значением. */
+	/* background-size: auto auto; */
+
+	/* Устанавливает, будет ли прокручиваться фоновое изображение вместе с содержимым элемента. */
+	/* background-attachment: scroll; */
+
+	/* Универсальное свойство */
+	/* background: green url("../img/01.png") 50% / cover no-repeat fixed; */
+
+	/* background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.65) 100%), url("../img/image_1.jpg") 0 0 / 100px no-repeat, green url("../img/01.png") 50% / cover no-repeat; */
+}
+
+/* ------------header------------------ */
+.header {
+	display: block;
+	padding: 20px;
+	background-color: rgb(243, 191, 191);
+	margin-bottom: 70px;
+}
+.headertitle {
+	font-size: 35px;
+	margin-bottom: 30px;
+}
+
+.headertitle > a {
+	color: tomato;
+	font-weight: 700;
+}
+
+.nav {
+}
+.navlist {
+	text-align: center;
+}
+.navlistitem {
+	display: inline-block;
+	margin-right: 15px;
+	padding: 5px;
+}
+
+.navlistlink {
+	color: #009c9c;
+	font-size: 20px;
+}
+/* ------------main------------------ */
+.main {
+	display: block;
+	min-width: 1200px;
+	text-align: center;
+	
+}
+
+.maintitle {
+	font-size: 25px;
+	margin-bottom: 50px;
+}
+
+.backgroundcolor {
+	display: block;
+	margin-bottom: 50px;
+	
+}
+
+.backgroundtitle {
+	font-size: 20px;
+	margin-bottom: 15px;
+}
+
+.bgcall {
+	display: block;
+	font-size: 0px;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.bgc,
+.bgc2,
+.bgc3 {
+	display: inline-block;
+	max-width: 30%;
+	padding: 15px;
+	font-size: 16px;
+	text-align: center;
+	border-radius: 10px;
+	color: #fff;
+}
+
+.bgc {
+	background-color: #00ffff;
+	margin-right: 1%;
+}
+
+.bgc2 {
+	background-color: #57a8a8;
+	margin-right: 1%;
+}
+
+.bgc3 {
+	background-color: #7b9494;
+}
+
+.bgctitle {
+	text-align: center;
+	font-size: 35px;
+	margin-bottom: 15px;
+}
+.bgccontent {
+}
+
+.bgimage {
+	display: block;
+	font-size: 0px;
+	max-width: 80%;
+	margin: 0 auto;
+	margin-bottom: 50px;
+}
+
+.bgimage1,
+.bgimage2,
+.bgimage3 {
+	display: block;
+	margin: 0 auto;
+	border-radius: 15px;
+	height: 500px;
+	width: 100%;
+	box-shadow: 0 0 10px #000;
+	background-size: 100px;
+}
+
+.bgimage1 {
+	background-image: linear-gradient(
+		45deg,
+		rgba(254, 204, 177, 1) 0%,
+		rgba(241, 116, 50, 1) 50%,
+		rgba(234, 85, 7, 1) 51%,
+		rgba(251, 149, 94, 1) 10%
+	);
+	margin-bottom: 15px;
+}
+
+.bgimage2 {
+	background-image: url("../img/bg2.jpg");
+	margin-bottom: 15px;
+}
+
+.bgimage3 {
+	background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0) 50%), url("../img/bg3.jpg");
+}
+
+.bgrepeat {
+	display: block;
+	font-size: 0px;
+	max-width: 1200px;
+	margin: 0 auto;
+	margin-bottom: 50px;
+}
+
+.bgrepeatx,
+.bgrepeaty,
+.bgrepeatxy,
+.bgnorepeat,
+.bgspace,
+.bground {
+	border-radius: 15px;
+	height: 500px;
+	width: 100%;
+	box-shadow: 0 0 10px #000;
+}
+
+.bgrepeatx {
+	background: #009c9c url("../img/icon.png") repeat-x;
+	margin-bottom: 15px;
+}
+.bgrepeaty {
+	background: #009c9c url("../img/icon.png") repeat-y;
+	margin-bottom: 15px;
+}
+.bgrepeatxy {
+	background: #009c9c url("../img/icon.png") repeat;
+	margin-bottom: 15px;
+}
+.bgnorepeat {
+	background: #009c9c url("../img/icon.png") no-repeat;
+	margin-bottom: 15px;
+}
+.bgspace {
+	background: #009c9c url('../img/icon.png') space;
+	margin-bottom: 15px;
+}
+.bground {
+	background: #009c9c url('../img/icon.png') round;
+}
+
+
+.bgposition {
+	display: block;
+	font-size: 0px;
+	max-width: 1200px;
+	margin: 0 auto;
+	margin-bottom: 50px;
+}
+
+
+
+.bgpositiondefault, .bgpositioncenter, .bgpositionleft, .bgpositionleft, .bgpositionangle, .bgpositionposition {
+	border-radius: 15px;
+	height: 500px;
+	width: 100%;
+	box-shadow: 0 0 10px #000;
+}
+
+.bgpositiondefault {
+	background: url('../img/bg2.jpg') no-repeat;
+	background-size: 100px;
+}
+.bgpositioncenter {
+	background: url('../img/bg2.jpg') no-repeat;
+	background-size: 100px;
+	background-position: center;
+	margin-bottom: 15px;
+}
+.bgpositionleft {
+	background: url('../img/bg2.jpg') left no-repeat;
+	background-size: 100px;
+	margin-bottom: 15px;
+}
+.bgpositionangle {
+	background: url('../img/bg2.jpg') top right no-repeat;
+	background-size: 100px;
+	margin-bottom: 15px;
+}
+.bgpositionposition {
+	background: url('../img/bg2.jpg') 10% 10% no-repeat;
+	background-size: 100px;
+}
+
+.bgattachment {
+	display: block;
+	font-size: 0px;
+	max-width: 1200px;
+	margin: 0 auto;
+	margin-bottom: 50px;
+}
+
+.bgattachmentdefault, .bgattachmentfixed, .bgattachmentlocal {
+	border-radius: 15px;
+	height: 500px;
+	width: 100%;
+	box-shadow: 0 0 10px #000;
+	
+}
+
+.bgattachmentdefault {
+	background: url('../img/bg1.jpg') 0 0/1200px no-repeat scroll;
+	margin-bottom: 15px;
+}
+
+.bgattachmentfixed {
+	margin-bottom: 15px;
+	background: url('../img/bg1.jpg') 0 0/100% no-repeat fixed;
+}
+
+.bgattachmentlocal {
+	text-align: center;
+	padding: 10px;
+	background: #009c9c url('../img/bg1.jpg') 0 0/1200px no-repeat local;
+	overflow: scroll;
+	font-size: 20px;
+	color: #f5f5f5;
+}
+
+
+.bgsize {
+	display: block;
+	font-size: 0px;
+	max-width: 1200px;
+	margin: 0 auto;
+	margin-bottom: 50px;
+}
+
+.bgsize > div {
+	border-radius: 15px;
+	height: 500px;
+	width: 100%;
+	box-shadow: 0 0 10px #000;
+}
+
+.bgsizedefault {
+	background: #009c9c url('../img/bg2.jpg') 0 0/auto auto no-repeat;
+	margin-bottom: 15px;
+}
+.bgsizewidth {
+	background: #009c9c url('../img/bg2.jpg') 0 0/100% auto no-repeat;
+	margin-bottom: 15px;
+}
+.bgsizeheight {
+	background: #009c9c url('../img/bg2.jpg') 0 0/auto 100% no-repeat;
+	margin-bottom: 15px;
+}
+.bgsizestretch {
+	background: #009c9c url('../img/bg2.jpg') 0 0/100% 100% no-repeat;
+	margin-bottom: 15px;
+}
+.bgsizecontain {
+	background: #009c9c url('../img/bg2.jpg') 0 0/contain no-repeat;
+	margin-bottom: 15px;
+}
+.bgsizecover {
+	background: #009c9c url('../img/bg2.jpg') 0 0/cover no-repeat;
+	margin-bottom: 15px;
+}
+.bgsizesize {
+	background: #009c9c url('../img/bg2.jpg') 0 0/50% no-repeat;
+}
+
+.manybackground {
+	display: block;
+	font-size: 0px;
+	max-width: 1200px;
+	margin: 0 auto;
+	margin-bottom: 500px;
+}
+.manybackgrounditem {
+	display: block;
+	margin: 0 auto;
+	border-radius: 15px;
+	height: 500px;
+	width: 100%;
+	box-shadow: 0 0 10px #000;
+	overflow: scroll;
+	font-size: 20px;
+	padding: 20px;
+	color: #0b2e2e;
+	background:  url('../img/bg1.jpg') 100% 0/200px scroll no-repeat, url('../img/bg2.jpg') center/200px local no-repeat, url('../img/bg3.jpg') 0 0/100px fixed;
+}
+
+
+.task1 {
+	margin-bottom: 100px;
+}
+
+.listtask1 {
+	display: block;
+	max-width: 800px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+
+
+.itemlisttask1 {
+	padding-right: 25px;
+	margin-bottom: 20px;
+	background: url('../img/icon.png') right no-repeat;
+}
+
+.task2 {
+	text-align: center;
+}
+.maintitle {
+	
+}
+
+.contentcard {
+	text-align: left;
+	margin: 0 auto;
+	display: block;
+	max-width: 290px;
+	background-color: #fff;
+	border-radius: 10px;
+	padding: 20px;
+	box-shadow: 0 0 10px #000;
+
+}
+
+.contacttitle {
+	font-size: 14px;
+	line-height: 22px;
+	letter-spacing: 0.15px;
+	color: #4B4B4B;
+	text-transform: uppercase;
+	margin-bottom: 28px;
+}
+.contactlist {	
+	max-width: 240px;
+}
+
+.contactlistitem1 {
+	background: url('../img/icon1.png') 5px 3px/10px no-repeat;
+	font-size: 14px;
+	line-height: 20px;
+	letter-spacing: 0.15px;
+	color: #4B4B4B;
+	padding-left: 23px;
+	margin-bottom: 16px;
+}
+
+.contactlistitem2 {
+	background: url('../img/icon2.png') 5px 3px/12px no-repeat;
+	padding-left: 23px;
+	font-size: 14px;
+	line-height: 20px;
+	letter-spacing: 0.15px;
+	color: #4B4B4B;
+	margin-bottom: 16px;
+
+}
+
+.contactlistitem3 {
+	background: url('../img/icon3.png') 5px 3px/12px no-repeat;
+	padding-left: 23px;
+	font-size: 14px;
+	line-height: 20px;
+	letter-spacing: 0.15px;
+	color: #4B4B4B;
+	margin-bottom: 16px;
+}
+
+.contactlistitem4 {
+	background: url('../img/icon4.png') 5px 3px/14px no-repeat;
+	padding-left: 23px;
+	font-size: 14px;
+	line-height: 20px;
+	letter-spacing: 0.15px;
+	color: #4B4B4B;
+	margin-bottom: 16px;
+
+}
